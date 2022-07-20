@@ -2,7 +2,7 @@ fun main(){
     val options = arrayOf("Rock", "Paper", "Scissors")
     val gameChoice = getGameChoice(options)
     val userChoice = getUserChoice(options)
-    printResult(userChoice, gameChoice)
+    printResult(userChoice.capitalize(), gameChoice)
 }
 
 fun getGameChoice(optionParam: Array<String>) =
